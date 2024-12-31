@@ -16,3 +16,34 @@
 - Responsive Design
 - Smooth Scrolling
 - Customizable Sections (Hero, About, Services, Contact)
+
+
+# Business Landing Page Template
+
+## About
+The **Business Landing Page Template** is a modern and responsive HTML template designed for small businesses, freelancers, and agencies. It’s easy to customize and perfect for showcasing your services, contacting customers, and building an online presence.
+
+---
+
+## Features
+- Fully responsive design (mobile-friendly)
+- Customizable sections (Hero, About, Services, Contact)
+- Clean and modern layout
+- Easy to edit with well-commented HTML and CSS
+- Smooth scrolling navigation
+
+---
+
+## File Structure
+```plaintext
+business-landing-template/
+│
+├── index.html          # Main HTML file
+├── styles/
+│   └── style.css       # CSS for styling
+├── scripts/
+│   └── script.js       # JavaScript for interactivity
+├── images/             # Images for the template
+│   └── logo.png
+│   └── hero-bg.jpg
+└── LICENSE.txt         # License agreement
