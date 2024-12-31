@@ -29,14 +29,30 @@ header {
 }
 
 .nav-links {
-  list-style: none;
   display: flex;
   gap: 20px;
+  list-style: none;
   padding: 0;
 }
 
-.nav-links li {
-  display: inline;
+.nav-links a {
+  color: #fff; /* White text for visibility */
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.nav-links a:hover {
+  color: #FFD700; /* Gold color on hover */
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 .logo img {
@@ -132,6 +148,7 @@ footer {
   }
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2.5rem;
@@ -139,5 +156,14 @@ footer {
 
   .cta-btn {
     font-size: 0.9rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
   }
 }
