@@ -3,7 +3,7 @@
 ### **LICENSE.txt**
 This file defines the terms of use for your template.
 
-```plaintext
+
 Business Landing Page Template License
 Copyright (c) 2024 Your Business Name. All rights reserved.
 
