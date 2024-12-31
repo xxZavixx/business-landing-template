@@ -1,0 +1,47 @@
+---
+
+### **LICENSE.txt**
+This file defines the terms of use for your template.
+
+```plaintext
+Business Landing Page Template License
+Copyright (c) 2024 Your Business Name. All rights reserved.
+
+This license applies to the Business Landing Page Template and governs its use. By purchasing, downloading, or using this template, you agree to the terms outlined below.
+
+---
+
+## Usage Rights
+1. **Personal License ($20):**  
+   - For personal or non-commercial projects (e.g., personal blogs, portfolios).
+   - Not permitted for use in revenue-generating or commercial projects.
+
+2. **Commercial License ($50):**  
+   - For use in one commercial project (e.g., a business or client website).
+   - Redistribution or resale of the original template or derivative works is prohibited.
+
+3. **Extended License ($100):**  
+   - For use in multiple commercial projects.
+   - Allows creation of derivative works for client projects but prohibits direct reselling of the original template.
+
+---
+
+## Restrictions
+You are NOT permitted to:
+1. Redistribute, resell, sublicense, or share this template or its components in any form, whether modified or unmodified.
+2. Claim ownership or authorship of the original template or its design.
+
+---
+
+## Modifications
+You are allowed to modify the template (HTML, CSS, JavaScript, and images) to suit your project needs. However, the restrictions outlined above still apply to the modified version.
+
+---
+
+## Warranty Disclaimer
+This template is provided "as is" without any warranty, express or implied. The author shall not be held liable for any damages or losses resulting from the use of this template.
+
+---
+
+## Licensing Inquiries
+For extended licenses, upgrades, or custom templates, contact: **[your email address]**
