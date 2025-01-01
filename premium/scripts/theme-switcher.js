@@ -1,7 +1,8 @@
-const themeSelector = document.getElementById('theme-selector');
+// Theme Switching
+const themeSwitcher = document.getElementById('theme-switcher');
+const themeLink = document.getElementById('theme-link');
 
-themeSelector.addEventListener('change', (event) => {
-  const theme = event.target.value;
-  const themeStylesheet = document.getElementById('theme-stylesheet');
-  themeStylesheet.href = `styles/theme-${theme}.css`;
+themeSwitcher.addEventListener('change', (event) => {
+  const selectedTheme = event.target.value;
+  themeLink.setAttribute('href', selectedTheme);
 });
