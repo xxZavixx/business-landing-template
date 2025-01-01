@@ -1,8 +1,7 @@
-const fontSelector = document.getElementById('font-selector');
+// Font Switching
+const fontSelector = document.getElementById('font-switcher');
 
 fontSelector.addEventListener('change', (event) => {
-  const font = event.target.value;
-  const fontLink = document.getElementById('font-link');
-  fontLink.href = `https://fonts.googleapis.com/css2?family=${font}:wght@300;400;700&display=swap`;
-  document.body.style.fontFamily = font.replace(/\+/g, ' ');
+  const selectedFont = event.target.value;
+  document.body.style.fontFamily = selectedFont;
 });
