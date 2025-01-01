@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Premium Features Demo</title>
-  <link id="theme-stylesheet" rel="stylesheet" href="styles/theme-blue.css">
-  <link id="font-link" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap">
+  <title>Premium Business Landing Page</title>
+  <link rel="stylesheet" href="styles/theme-blue.css" id="theme-link">
+  <link rel="stylesheet" href="styles/font.css">
 </head>
 <body>
+  <!-- Header Section -->
   <header>
     <nav>
       <div class="logo">
-        <img src="../images/logo.png" alt="Business Logo">
+        <img src="../images/Logo.png" alt="Business Logo">
       </div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
@@ -25,22 +26,27 @@
       <p>Empowering your business with modern solutions.</p>
       <a href="#contact" class="cta-btn">Contact Us</a>
     </div>
-    <div class="selectors">
-      <label for="theme-selector">Choose Theme:</label>
-      <select id="theme-selector">
-        <option value="blue">Blue</option>
-        <option value="green">Green</option>
-        <option value="red">Red</option>
-      </select>
-      <label for="font-selector">Choose Font:</label>
-      <select id="font-selector">
-        <option value="Poppins">Poppins</option>
-        <option value="Roboto">Roboto</option>
-        <option value="Open+Sans">Open Sans</option>
-      </select>
-    </div>
   </header>
+
+  <!-- Premium Features -->
+  <section id="customization">
+    <h2>Customize Your Experience</h2>
+    <label for="theme-switcher">Choose Theme:</label>
+    <select id="theme-switcher">
+      <option value="styles/theme-blue.css">Blue</option>
+      <option value="styles/theme-green.css">Green</option>
+      <option value="styles/theme-red.css">Red</option>
+    </select>
+
+    <label for="font-switcher">Choose Font:</label>
+    <select id="font-switcher">
+      <option value="'Poppins', sans-serif">Poppins</option>
+      <option value="'Roboto', sans-serif">Roboto</option>
+      <option value="'Open Sans', sans-serif">Open Sans</option>
+    </select>
+  </section>
+
+  <script src="scripts/theme-switcher.js"></script>
+  <script src="scripts/font-switcher.js"></script>
 </body>
-<script src="scripts/theme-switcher.js"></script>
-<script src="scripts/font-switcher.js"></script>
 </html>
