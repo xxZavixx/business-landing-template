@@ -5,14 +5,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     const target = document.querySelector(this.getAttribute('href'));
     target.scrollIntoView({
       behavior: 'smooth',
-      block: 'start'
+      block: 'start',
     });
   });
 });
 
-// Form validation
+// Simple form validation
 document.querySelector('form').addEventListener('submit', function (e) {
-  e.preventDefault(); // Prevent default form submission for now
+  e.preventDefault(); // Prevent form submission for demonstration purposes
 
   const name = document.querySelector('input[placeholder="Name"]');
   const email = document.querySelector('input[placeholder="Email"]');
