@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #007BFF;
+  --secondary-color: #0056b3;
+  --accent-color: #FFD700;
+}
+header {
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+}
+.cta-btn {
+  background-color: var(--primary-color);
+}
+.cta-btn:hover {
+  background-color: var(--secondary-color);
+}
