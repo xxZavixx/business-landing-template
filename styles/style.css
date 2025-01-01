@@ -17,6 +17,7 @@ a:hover {
   color: #0056b3;
 }
 
+/* Header Styles */
 header {
   background: linear-gradient(to right, #007BFF, #0056b3);
   height: 100vh;
@@ -28,6 +29,7 @@ header {
   text-align: center;
 }
 
+/* Navigation Links */
 .nav-links {
   display: flex;
   gap: 20px;
@@ -46,10 +48,12 @@ header {
   color: #FFD700;
 }
 
+/* Logo */
 .logo img {
   width: 80px;
 }
 
+/* Hero Section */
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 10px;
@@ -68,12 +72,14 @@ header {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .cta-btn:hover {
   background-color: #0056b3;
 }
 
+/* Section Styles */
 section {
   padding: 50px 20px;
   background-color: #f4f4f4;
@@ -88,6 +94,7 @@ section h2 {
   margin-bottom: 20px;
 }
 
+/* Form Styles */
 form input,
 form textarea,
 form button {
@@ -113,6 +120,7 @@ form button:hover {
   background-color: #0056b3;
 }
 
+/* Footer Styles */
 footer {
   background-color: #333;
   color: #fff;
