@@ -14,6 +14,17 @@ This is a modern, responsive business landing page template, designed for small 
 - **Font Switching**: Customize fonts with Poppins, Roboto, or Open Sans.
 - **Animations**: Add subtle animations for a more dynamic feel.
 
+- ### Animations
+To enable animations:
+1. Link the `animations/animations.css` file in your HTML `<head>`.
+2. (Optional) Include `animations/animations.js` for scroll-triggered effects.
+3. Add animation classes (`fade-in`, `slide-in`, `bounce`) to elements.
+
+Example:
+```html
+<div class="fade-in">This text will fade in!</div>
+
+
 ## Installation
 1. **Download**: Download the `.zip` file after purchase.
 2. **Extract**: Extract the files to your desired location.
