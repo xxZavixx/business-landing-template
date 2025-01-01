@@ -1,14 +1,20 @@
 :root {
-  --primary-color: #007BFF;
-  --secondary-color: #0056b3;
-  --accent-color: #FFD700;
+  --background-gradient: linear-gradient(to right, #007BFF, #0056b3);
+  --text-color: white;
+  --link-color: #FFD700;
+  --link-hover-color: #FF6347;
 }
-header {
-  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+
+body {
+  background: var(--background-gradient);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
 }
-.cta-btn {
-  background-color: var(--primary-color);
+
+a {
+  color: var(--link-color);
 }
-.cta-btn:hover {
-  background-color: var(--secondary-color);
+
+a:hover {
+  color: var(--link-hover-color);
 }
