@@ -47,3 +47,24 @@ business-landing-template/
 │   └── logo.png
 │   └── hero-bg.jpg
 └── LICENSE.txt         # License agreement
+
+
+# Premium Features for Business Landing Page Template
+
+## Premium Features
+1. **Theme Switching**
+   - Change between Blue, Green, and Red themes dynamically.
+2. **Font Switching**
+   - Choose from Poppins, Roboto, or Open Sans fonts.
+
+## How to Use
+1. Add the `premium/index.html` file to your project to view premium features.
+2. Include `theme-switcher.js` and `font-switcher.js` in your project for functionality.
+3. Place the `styles` folder in `premium/` to access theme files.
+
+## Pricing
+- Base Template: $20 (Personal), $50 (Commercial), $100 (Extended License)
+- Add-Ons:
+  - Themes: +$15
+  - Fonts: +$10
+
