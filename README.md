@@ -57,6 +57,12 @@ Once you’ve customized the template, you can host it online to make it accessi
   - Theme Switching: +$15
   - Font Switching: +$10
   - Animations: +$10
+ 
+- ### Favicon
+- The template includes a placeholder favicon (`favicon.ico`).
+- To replace it, create your own favicon using an online tool (e.g., favicon.io).
+- Save it as `favicon.ico` and replace the existing file in the root directory.
+
 
 ## License
 This template is licensed under [Custom License](/LICENSE.txt). Please refer to the `LICENSE.txt` file for detailed usage rights. Unauthorized distribution or resale is prohibited.
